@@ -39,7 +39,7 @@ public class SearchPage {
 	public static void fillOriginTextBox(WebDriver driver, String origin) throws Exception {
 		element = originTextBox(driver);
 		element.sendKeys(origin);
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		element.sendKeys(Keys.TAB);
 		log.info("Enter origin city as " + origin);
 	}
@@ -63,7 +63,7 @@ public class SearchPage {
 	public static void fillDestinationTextBox(WebDriver driver, String destination) throws Exception {
 		element = destinationTextBox(driver);
 		element.sendKeys(destination);
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		element.sendKeys(Keys.TAB);
 		log.info("Enter destination city as " + destination);
 	}
